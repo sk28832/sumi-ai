@@ -18,23 +18,27 @@ Sesshū Tōyō is renowned for his dynamic and expressive ink landscapes. His st
 
 1. **"Sansui Chokan" (Long Landscape Scroll, 1486)**
    - This scroll is a masterpiece of ink wash landscape, showcasing Sesshū's mastery in capturing the spirit of nature with minimal strokes.
-   - ![Sansui Chokan, detail - Sesshū Tōyō](https://www.wikiart.org/en/sesshu-toyo/sansui-chokan-detail-1496)
+   - <img src="https://www.wikiart.org/en/sesshu-toyo/sansui-chokan-detail-1496" alt="Sansui Chokan, detail - Sesshū Tōyō" width="300"/>
+
+2. **"Landscape of Four Seasons" (1486)**
+   - A depiction of nature's changing moods across the seasons, Sesshū employs his signature bold brushwork and monochrome ink.
+   - <img src="https://www.wikiart.org/en/sesshu-toyo/landscape-of-four-seasons-spring-1486" alt="Landscape of Four Seasons (Spring?) - Sesshū Tōyō" width="300"/>
 
 ### Hasegawa Tōhaku (1539–1610)
 Hasegawa Tōhaku is known for his delicate and ethereal ink paintings, often depicting misty, dreamlike landscapes and scenes.
 
 1. **"Pine Trees" (1595)**
    - A celebrated example of Tōhaku's use of ink monochrome (sumi-e), illustrating a grove of pine trees emerging from a misty background.
-   - ![Pine Trees - Hasegawa Tōhaku](https://www.tnm.jp/modules/r_collection/index.php?controller=dtl&colid=A11158)
+   - <img src="https://www.tnm.jp/modules/r_collection/index.php?controller=dtl&colid=A11158" alt="Pine Trees - Hasegawa Tōhaku" width="300"/>
 
 ### Ogata Kōrin (1658–1716)
 A leading figure of the Rinpa school, Ogata Kōrin is famous for his vibrant and decorative style, incorporating gold leaf and vivid colors.
 
 1. **"Irises at Yatsuhashi" (after 1709)**
    - Kōrin’s use of bold color and pattern is evident in this depiction of irises, where he transforms a simple scene into a rhythmic and vivid composition.
-   - ![Irises - Ogata Kōrin](https://www.metmuseum.org/art/collection/search/44858)
+   - <img src="https://www.metmuseum.org/art/collection/search/44858" alt="Irises - Ogata Kōrin" width="300"/>
 
-Each artist brings their unique vision and technique to the canvas, offering a rich tapestry of styles for our AI to emulate in the creation of new, inspired artworks.
+Each artist brings their unique vision and technique to the canvas, offering a rich tapestry of styles for SumiAI to emulate in the creation of new, inspired artworks.
 
 ## Do Further Development
 
