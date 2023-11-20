@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# SumiAI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+SumiAI is an innovative web application that combines the ancient art of Japanese ink painting with modern AI technology. Users can generate images in the styles of renowned Japanese ink artists Sesshū Tōyō, Hasegawa Tōhaku, and Ogata Kōrin. The application offers an intuitive interface for users to input descriptions or select from surprise prompts, creating unique, stylistic AI-generated artworks.
 
-## Available Scripts
+## How to Use
+1. Input a Description: Enter a description for the image you want to generate, or use the 'Surprise me' button for random prompts.
+2. Select an Artist Style: Choose from Sesshū Tōyō, Hasegawa Tōhaku, or Ogata Kōrin styles.
+3. Generate the Image: Click 'Generate' to create your image.
+4. View the Results: The generated images will be displayed in the image section.
 
-In the project directory, you can run:
+## Meet the Masters
 
-### `npm start`
+Explore the unique styles of three masterful Japanese artists, Sesshū Tōyō, Hasegawa Tōhaku, and Ogata Kōrin, whose distinctive approaches to ink painting have inspired our AI-generated art.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Sesshū Tōyō (1420–1506)
+Sesshū Tōyō is renowned for his dynamic and expressive ink landscapes. His style, rooted in Zen Buddhism, emphasizes simplicity, fluidity, and the essence of nature. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **"Sansui Chokan" (Long Landscape Scroll, 1486)**
+   - This scroll is a masterpiece of ink wash landscape, showcasing Sesshū's mastery in capturing the spirit of nature with minimal strokes.
+   - ![Sansui Chokan, detail - Sesshū Tōyō](https://www.wikiart.org/en/sesshu-toyo/sansui-chokan-detail-1496)
 
-### `npm test`
+### Hasegawa Tōhaku (1539–1610)
+Hasegawa Tōhaku is known for his delicate and ethereal ink paintings, often depicting misty, dreamlike landscapes and scenes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **"Pine Trees" (1595)**
+   - A celebrated example of Tōhaku's use of ink monochrome (sumi-e), illustrating a grove of pine trees emerging from a misty background.
+   - ![Pine Trees - Hasegawa Tōhaku](https://www.tnm.jp/modules/r_collection/index.php?controller=dtl&colid=A11158)
 
-### `npm run build`
+### Ogata Kōrin (1658–1716)
+A leading figure of the Rinpa school, Ogata Kōrin is famous for his vibrant and decorative style, incorporating gold leaf and vivid colors.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **"Irises at Yatsuhashi" (after 1709)**
+   - Kōrin’s use of bold color and pattern is evident in this depiction of irises, where he transforms a simple scene into a rhythmic and vivid composition.
+   - ![Irises - Ogata Kōrin](https://www.metmuseum.org/art/collection/search/44858)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Each artist brings their unique vision and technique to the canvas, offering a rich tapestry of styles for our AI to emulate in the creation of new, inspired artworks.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Do Further Development
 
-### `npm run eject`
+### Technologies Used
+- Frontend: React
+- Backend: Node.js, Express
+- AI Image Generation: OpenAI's DALL-E
+- Others: CORS, dotenv for environment variables
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prerequisites
+- Node.js and npm
+- An OpenAI API key
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
+1. Clone the Repository: 
+   ```git clone https://github.com/sk28832/sumi-ai.git```
+   ```cd sumi-ai```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install Dependencies: 
+   Navigate to both the frontend and backend directories and install dependencies:
+   ```npm install```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Setting up Environment Variables: 
+   In the backend directory, create a .env file and add your OpenAI API key:
+   ```OPENAI_API_KEY=your_openai_api_key_here```
 
-## Learn More
+### Running the Application
+- Start the Frontend: 
+  Navigate to the frontend directory and run:
+  ```npm run start:frontend```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Start the Backend: 
+  Navigate to the backend directory and run:
+  ```npm run start:backend```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After starting both the frontend and backend, navigate to the frontend's URL (typically http://localhost:3000) in your web browser to use SumiAI.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy exploring AI-generated art in the style of Japanese ink painting masters!
