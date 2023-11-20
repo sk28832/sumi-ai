@@ -18,21 +18,22 @@ Sesshū Tōyō is renowned for his dynamic and expressive ink landscapes. His st
 
 1. **"Landscape of Four Seasons" (1486)**
    - A depiction of nature's changing moods across the seasons, Sesshū employs his signature bold brushwork and monochrome ink.
-   - <img src="[https://www.wikiart.org/en/sesshu-toyo/landscape-of-four-seasons-spring-1486](https://uploads0.wikiart.org/images/sesshu-toyo/landscape-of-four-seasons-fall-1486.jpg!Large.jpg)" alt="Landscape of Four Seasons (Spring?) - Sesshū Tōyō" width="300"/>
+![landscape-of-four-seasons-fall-1486 jpg!Large](https://github.com/sk28832/sumi-ai/assets/33585911/a9df5479-420e-4e34-a5f9-81bc5af427d3)
 
 ### Hasegawa Tōhaku (1539–1610)
 Hasegawa Tōhaku is known for his delicate and ethereal ink paintings, often depicting misty, dreamlike landscapes and scenes.
 
 1. **"Pine Trees" (1595)**
    - A celebrated example of Tōhaku's use of ink monochrome (sumi-e), illustrating a grove of pine trees emerging from a misty background.
-   - <img src="https://www.tnm.jp/modules/r_collection/index.php?controller=dtl&colid=A11158" alt="Pine Trees - Hasegawa Tōhaku" width="300"/>
+![pinetrees](https://github.com/sk28832/sumi-ai/assets/33585911/00092e6b-20bc-4ab2-9d35-436182977867)
 
 ### Ogata Kōrin (1658–1716)
 A leading figure of the Rinpa school, Ogata Kōrin is famous for his vibrant and decorative style, incorporating gold leaf and vivid colors.
 
 1. **"Irises at Yatsuhashi" (after 1709)**
    - Kōrin’s use of bold color and pattern is evident in this depiction of irises, where he transforms a simple scene into a rhythmic and vivid composition.
-   - <img src="https://www.metmuseum.org/art/collection/search/44858" alt="Irises - Ogata Kōrin" width="300"/>
+![irises](https://github.com/sk28832/sumi-ai/assets/33585911/fae77245-b81b-49c3-b9be-52596abcf311)
+
 
 Each artist brings their unique vision and technique to the canvas, offering a rich tapestry of styles for SumiAI to emulate in the creation of new, inspired artworks.
 
