@@ -16,13 +16,9 @@ Explore the unique styles of three masterful Japanese artists, Sesshū Tōyō, H
 ### Sesshū Tōyō (1420–1506)
 Sesshū Tōyō is renowned for his dynamic and expressive ink landscapes. His style, rooted in Zen Buddhism, emphasizes simplicity, fluidity, and the essence of nature. 
 
-1. **"Sansui Chokan" (Long Landscape Scroll, 1486)**
-   - This scroll is a masterpiece of ink wash landscape, showcasing Sesshū's mastery in capturing the spirit of nature with minimal strokes.
-   - <img src="https://www.wikiart.org/en/sesshu-toyo/sansui-chokan-detail-1496" alt="Sansui Chokan, detail - Sesshū Tōyō" width="300"/>
-
-2. **"Landscape of Four Seasons" (1486)**
+1. **"Landscape of Four Seasons" (1486)**
    - A depiction of nature's changing moods across the seasons, Sesshū employs his signature bold brushwork and monochrome ink.
-   - <img src="https://www.wikiart.org/en/sesshu-toyo/landscape-of-four-seasons-spring-1486" alt="Landscape of Four Seasons (Spring?) - Sesshū Tōyō" width="300"/>
+   - <img src="[https://www.wikiart.org/en/sesshu-toyo/landscape-of-four-seasons-spring-1486](https://uploads0.wikiart.org/images/sesshu-toyo/landscape-of-four-seasons-fall-1486.jpg!Large.jpg)" alt="Landscape of Four Seasons (Spring?) - Sesshū Tōyō" width="300"/>
 
 ### Hasegawa Tōhaku (1539–1610)
 Hasegawa Tōhaku is known for his delicate and ethereal ink paintings, often depicting misty, dreamlike landscapes and scenes.
