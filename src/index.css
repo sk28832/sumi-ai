@@ -1,13 +1,186 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafc;
+  color: #777;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.app {
+  width: 90vw;
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin: 20px 0 5px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  color: #555;
+  margin: 0 0 20px; 
+}
+
+
+.search-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  align-items: center;
+}
+
+
+.input-container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: rgba(0,0,82,0.15) 0 2px 4px;
+  margin-right: 10px;
+}
+
+.input-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.input-container input {
+  border: none;
+  padding: 13px 14px;
+  box-sizing: border-box;
+  font-size: 15px;
+  outline: none;
+  width: 100%;
+  font-weight: 200;
+  margin-right: 10px;
+}
+
+.input-container input::placeholder {
+  color: #cacaca;
+  font-weight: 200;
+}
+
+
+
+button {
+  display: inline-block; 
+  background-color: #2e2e2e; 
+  color: #fff; 
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;  /* Increase font-size here */
+  padding: 8px 20px; 
+  margin: 15px 0 2px 5px;
+  cursor: pointer;
+  transition: background-color 0.2s; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); 
+}
+
+
+button:hover {
+  background-color: #4A4A4A; /* Slightly darker shade on hover */
+}
+
+button:active {
+  background-color: #1C1C1C; /* Even darker shade when button is pressed */
+  transform: scale(0.98); /* Slightly scale down the button to mimic a button press effect */
+}
+
+.image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;     /* Center image horizontally */
+  align-items: center;         /* Center image vertically */
+  padding: 2%;                 /* Some padding around the image */
+  min-height: 300px;           /* Minimum height to ensure image section visibility */
+  background-color: #fafafc;   /* Background color, can adjust to fit your theme */
+}
+
+.image-section img {
+  max-width: 80vw;             /* Image width up to 80% of the viewport width */
+  max-height: 60vh;            /* Image height up to 60% of the viewport height */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Optional shadow to make image pop */
+  border: 1px solid #e0e0e0;   /* Optional border */
+  object-fit: contain;         /* Maintain aspect ratio of the image */
+}
+
+
+@media (max-width: 556px) {
+  .image-section img {
+    max-width: 100%;
+  }
+}
+
+/* Loading styles */
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-animation {
+  width: 100px;
+  height: 100px;
+  border: 5px solid gray;
+  borderTop: 5px solid black;
+  borderRadius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+}
+
+.style-label {
+  font-size: 14px;
+  margin: 0 10px;
+  font-weight: 200;
+  align-self: center;
+}
+
+/* Animation for spinner */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
