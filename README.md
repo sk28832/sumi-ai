@@ -29,7 +29,7 @@ Hasegawa Tōhaku is known for his delicate and ethereal ink paintings, often dep
    - A celebrated example of Tōhaku's use of ink monochrome (sumi-e), illustrating a grove of pine trees emerging from a misty background.
    <br>
 
-![pinetrees](https://github.com/sk28832/sumi-ai/assets/33585911/00092e6b-20bc-4ab2-9d35-436182977867)
+   ![Pine Trees](https://github.com/sk28832/sumi-ai/assets/33585911/00092e6b-20bc-4ab2-9d35-436182977867)
 
 ### Ogata Kōrin (1658–1716)
 A leading figure of the Rinpa school, Ogata Kōrin is famous for his vibrant and decorative style, incorporating gold leaf and vivid colors.
