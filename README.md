@@ -1,5 +1,7 @@
 # SumiAI
 
+Use it here: https://sumi-ai.vercel.app/
+
 ## Overview
 SumiAI is an innovative web application that combines the ancient art of Japanese ink painting with modern AI technology. Users can generate images in the styles of renowned Japanese ink artists Sesshū Tōyō, Hasegawa Tōhaku, and Ogata Kōrin. The application offers an intuitive interface for users to input descriptions or select from surprise prompts, creating unique, stylistic AI-generated artworks.
 
